@@ -1,0 +1,58 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.text_12{
+	font:12px;
+}
+.table_val{
+	padding:0px 0px 0 20px;
+}
+.tr{
+	background-color:#FFFFFF;
+	}
+.td1{
+	background-color:#ecf1f4;
+	font-size:12px;
+	line-height:25px;
+	width: 10%
+	}
+.td2{
+	background:ghostwhite;
+	color: #333;
+}
+.inp{
+	height:18px;
+	border:1px solid #AEDEF2;
+	background:#ffffff;
+	font-size:12px;
+}
+.fy{
+	border-bottom:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	}
+.fy_td{
+	line-height:25px;
+	background-color:#e8e8e8;
+	}
+/*input[type='text']{
+	border:1px solid #A4BED4;
+	font-size:12px;
+	height:20px;
+	}
+*/
+*[lang|="en"]{
+	border:1px solid #A4BED4;
+	font-size:12px;
+	height:18px;
+	padding-top:2px
+	}
+/**
+select{
+	position:relative;left:-2px;top:-2px;font-size:12px;width:183px;line-height:14px;bo 
+	rder:0px;color:#909993;
+	} 
+**/

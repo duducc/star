@@ -1,0 +1,24 @@
+/* BEGIN DEMO STYLE */
+	/*同时调body width 和#main_image width*/
+	*{margin:0;padding:0}
+	body{background:white;background:white;color:#555;font:80%/140% 'helvetica neue',sans-serif;width:1050px;margin: 0 auto;}
+	h1,h2{font:bold 80% 'helvetica neue',sans-serif;letter-spacing:3px;text-transform:uppercase;}
+	a{color:#348;text-decoration:none;outline:none;}
+	a:hover{color:#67a;}
+	.caption{color:#888;position:absolute;top:360px;left:3px;width:200px;}/* caption title 显示控制 */
+	.demo{position:relative;margin-top:2em;}
+	.gallery_demo{width:200px;float:left;}
+	.gallery_demo li{width:55px;height:70px;border:3px double #eee;margin: 0 2px 2px 0;background:#eee;}
+	.gallery_demo li.hover{border-color:#bbb;}
+	.gallery_demo li.active{border-style:solid;border-color:#222;}
+	.gallery_demo li div{left:240px}
+	.gallery_demo li div .caption{font:italic 0.7em/1.4 georgia,serif;}
+	
+	.galleria_container{margin:0 auto 60px auto;height:438px;width:780px;float:right;}
+	
+	.nav{padding-top:5px;clear:both;}
+	
+	.nav{position:absolute;top:380px;left:0;}/* NAV 上一张 下一张样式 */
+	
+	#main_image{margin:0 auto 60px auto;height:460px;width:850px;background:white;overflow: auto;}
+	#main_image img{margin-bottom:10px;}

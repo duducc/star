@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" 
+		"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+	<mapper namespace="star.mapper.WkAddressMapper">
+
+		<select id="selectAll" resultType="star.bean.WkAddress">
+		    select  * from  wk_address order by id desc
+		</select>
+	
+	
+	    <insert id="addWkAddress" parameterType="star.bean.WkAddress">
+	        insert into
+			wk_address
+			(address,`desc`,`type`,category,extractcode)
+			values
+			(#{address},#{desc},#{type},#{category},#{extractcode})
+	    </insert>
+	
+	</mapper>
+	
+	
+	
+	
+	
+	
+	
+	
+	
