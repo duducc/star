@@ -74,8 +74,7 @@ public class DBUtil {
 			e.printStackTrace();
 		}
 		try {
-			conn = DriverManager
-					.getConnection(
+			conn = DriverManager.getConnection(
 							"jdbc:mysql://"
 									+ ip
 									+ ":3306/"
